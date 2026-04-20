@@ -8,5 +8,3 @@ Console.WriteLine("Hallo Welt"); // Ausgabe auf Deutsch
 //Wir schreiben in Anführungszeichen damit der Text als String erkannt wird. Das
 
 //Semikolon am Ende der Zeile signalisiert das Ende der Anweisung. In diesem Fall wird "Hallo Welt" auf der Konsole ausgegeben, was die deutsche Version von "Hello, World!" ist.
-
-

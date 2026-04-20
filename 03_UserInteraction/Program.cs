@@ -24,4 +24,23 @@ age = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für das Alter ein 
 Console.WriteLine("Gib deine E-Mail ein: ");
 email = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für die E-Mail-Adresse ein und speichert sie in der Variable email. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
 
-Console.WriteLine("\n\nVorname: " + firstName + "\nNachname: " + lastName + "\nAlter: " + age + "\nE-Mail: " + email);
+Console.WriteLine($"\n\nVorname: {firstName} \nNachname: {lastName} \nAlter: {age} \nE-Mail: {email} \n\n");
+
+
+string p2firstName, p2lastName, p2age, p2email;
+
+Console.WriteLine("Hallo User, bitte gib deinen Vornamen ein: ");
+p2firstName = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für den Vornamen ein und speichert sie in der Variable firstName. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib als nächstes deinen Nachnamen ein: ");
+p2lastName = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für den Nachnamen ein und speichert sie in der Variable lastName. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib dein Alter ein: ");
+p2age = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für das Alter ein und speichert sie in der Variable age. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib deine E-Mail ein: ");
+p2email = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für die E-Mail-Adresse ein und speichert sie in der Variable email. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+
+Console.WriteLine($"\n\nVorname: {p2firstName} \nNachname: {p2lastName} \nAlter: {p2age} \nE-Mail: {p2email} \n\n");
+
+float.TryParse(age, out float agep1);
+float.TryParse(p2age, out float agep2);
+
+Console.WriteLine($"Das Durchschnittsalter beider personen beträgt: {(agep1 + agep2) / 2}");

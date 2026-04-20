@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36202.13 d17.14
+VisualStudioVersion = 17.14.36202.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{91F8FBA7-7DC8-4C75-975E-3ED239176783}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Varibalen", "02_Varibalen\02_Varibalen.csproj", "{929DC827-B9CA-4BD9-8F21-A75107676CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_UserInteraction", "03_UserInteraction\03_UserInteraction.csproj", "{A22CF310-1DCD-496F-883A-8927A33E1D49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{929DC827-B9CA-4BD9-8F21-A75107676CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929DC827-B9CA-4BD9-8F21-A75107676CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{929DC827-B9CA-4BD9-8F21-A75107676CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22CF310-1DCD-496F-883A-8927A33E1D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22CF310-1DCD-496F-883A-8927A33E1D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22CF310-1DCD-496F-883A-8927A33E1D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22CF310-1DCD-496F-883A-8927A33E1D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

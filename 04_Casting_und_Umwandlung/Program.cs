@@ -29,3 +29,29 @@ Console.WriteLine(wahrOderFalsch);
 
 //Aufgabe es soll eine zweite Person Name und Alter angeben
 //Das Programm soll das Durchschnittsalter der beiden Personen (Person1 aus Aufgabe 1 und Person2) berechnen und ausgeben.
+
+string firstName, lastName, age, email;
+
+Console.WriteLine("Hallo User, bitte gib deinen Vornamen ein: ");
+firstName = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für den Vornamen ein und speichert sie in der Variable firstName. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib als nächstes deinen Nachnamen ein: ");
+lastName = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für den Nachnamen ein und speichert sie in der Variable lastName. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib dein Alter ein: ");
+age = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für das Alter ein und speichert sie in der Variable age. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib deine E-Mail ein: ");
+email = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für die E-Mail-Adresse ein und speichert sie in der Variable email. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+
+string firstName2, lastName2, age2, email2;
+
+Console.WriteLine("Hallo User, bitte gib deinen Vornamen ein: ");
+firstName2 = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für den Vornamen ein und speichert sie in der Variable firstName. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib als nächstes deinen Nachnamen ein: ");
+lastName2 = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für den Nachnamen ein und speichert sie in der Variable lastName. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib dein Alter ein: ");
+age2 = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für das Alter ein und speichert sie in der Variable age. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+Console.WriteLine("Gib deine E-Mail ein: ");
+email2 = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für die E-Mail-Adresse ein und speichert sie in der Variable email. Wenn die Eingabe null ist, wird eine leere Zeichenfolge verwendet.
+
+double.TryParse(age, out double person1Alter);
+double.TryParse(age2, out double person2Alter);
+Console.WriteLine("Das Druschnitsalter ist: " + (person1Alter + person2Alter) / 2);

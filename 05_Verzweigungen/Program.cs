@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.Design;
+﻿using OpenAI;
+using OpenAI.Chat;
+using DotNetEnv;
+using System.ComponentModel.Design;
 
 bool b1 = true && true == true == true;
 //b1 ist eine boolesche Variable, die den Wert true oder false speichern kann. In diesem Fall wird b1 mit dem Ergebnis der logischen Operation "true && true == true == false" initialisiert. Die logische Operation wird von links nach rechts ausgewertet, wobei "&&" die logische UND-Operation und "==" die Gleichheitsprüfung darstellt. Das Ergebnis dieser Operation wird in b1 gespeichert, und je nachdem, ob es wahr oder falsch ist, wird die entsprechende Ausgabe auf der Konsole angezeigt.

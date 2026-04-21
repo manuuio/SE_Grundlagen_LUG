@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Casting_Notes", "04_Cast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen", "05_Verzweigungen\05_Verzweigungen.csproj", "{72FC5A06-632D-416C-95C2-16477081FC1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen_Aufgabe_Dateitypen_GPT", "05_Verzweigungen_Aufgabe_Dateitypen\05_Verzweigungen_Aufgabe_Dateitypen_GPT.csproj", "{7818172D-B75F-4624-882F-93646326FB56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Verzweigungen_Aufgabe_Dateitypen_", "05_Verzweigungen_Aufgabe_Dateitypen_\05_Verzweigungen_Aufgabe_Dateitypen_.csproj", "{E913C1E0-79F7-4ACA-A1D0-980DD5A62358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,14 @@ Global
 		{72FC5A06-632D-416C-95C2-16477081FC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72FC5A06-632D-416C-95C2-16477081FC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FC5A06-632D-416C-95C2-16477081FC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7818172D-B75F-4624-882F-93646326FB56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7818172D-B75F-4624-882F-93646326FB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7818172D-B75F-4624-882F-93646326FB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7818172D-B75F-4624-882F-93646326FB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E913C1E0-79F7-4ACA-A1D0-980DD5A62358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E913C1E0-79F7-4ACA-A1D0-980DD5A62358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E913C1E0-79F7-4ACA-A1D0-980DD5A62358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E913C1E0-79F7-4ACA-A1D0-980DD5A62358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

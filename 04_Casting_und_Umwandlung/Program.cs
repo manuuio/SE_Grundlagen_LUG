@@ -55,3 +55,4 @@ email2 = Console.ReadLine() ?? ""; // Liest die Benutzereingabe für die E-Mail-
 double.TryParse(age, out double person1Alter);
 double.TryParse(age2, out double person2Alter);
 Console.WriteLine("Das Druschnitsalter ist: " + (person1Alter + person2Alter) / 2);
+Console.WriteLine("Eine Ändrung");
